@@ -27,3 +27,12 @@ p>button {
 .other {
     padding-top: 20px;
 }
+
+button {
+    transition: background 0.1s;
+}
+
+button:focus {
+    background: blue;
+    transition: backgound 0s;
+}
